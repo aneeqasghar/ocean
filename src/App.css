@@ -1,38 +1,66 @@
-.App {
+@import "./styles/variables.css";
+@import "./styles/font.css";
+
+h1 {
+  font-size: 64px;
+  text-align: center;
+
+  margin: 0;
+}
+
+h1.big-text {
+  font-family: "Poppins Black", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  line-height: 24px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p.about-gary-desc {
+  color: var(--grey-color);
+
+  font-family: "Lato Italic", san-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p.about-gary-desc + p {
+  color: var(--grey-color);
+
+  font-family: "Lato Regular", san-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p.credit-card-desc {
+  color: var(--grey-color);
+
+  font-family: "Lato Regular", san-serif;
+
+  font-size: 16px;
+}
+
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url('./assets/images/Rectangle.png');
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  height: 5rem;
+  width: 25rem;
+
+  background: var(--green-color);
+  color: var(--white-color);
+
+  font-size: 20px;
+  text-transform: uppercase;
+
+  border: 1px solid var(--white-color);
+
+  font-family: 'Sen Black', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.rounded-btn {
+  border-radius: 4rem;
 }
