@@ -8,8 +8,13 @@ h1 {
   margin: 0;
 }
 
-h1.big-text {
+h1.large-text {
   font-family: "Poppins Black", sans-serif;
+}
+
+h1.larger-text {
+  font-size: 60px;
+  font-family: "Lato Black", sans-serif;
 }
 
 p {
@@ -18,13 +23,13 @@ p {
   text-align: center;
 }
 
-p.about-gary-desc {
+p.italic-desc {
   color: var(--grey-color);
 
   font-family: "Lato Italic", san-serif;
 }
 
-p.about-gary-desc + p {
+p.italic-desc + p {
   color: var(--grey-color);
 
   font-family: "Lato Regular", san-serif;
@@ -38,12 +43,60 @@ p.credit-card-desc {
   font-size: 16px;
 }
 
+p.description{
+  font-family: 'Poppins Regular', sans-serif;
+  line-height: 34px;
+}
+
+.img-bg {
+  background-image: url("./assets/images/Rectangle.png");
+  background-size: cover;
+}
+
+.content-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('./assets/images/Rectangle.png');
-  background-size: cover;
+  justify-content: center;
+}
+
+.left-justified {
+  text-align: left;
+}
+
+.inquiry {
+  font-size: 40px;
+  font-family: 'Poppins Regular', sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.icon-description{
+  text-align: center;
+
+  width: 42rem;
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.icon-description:first-of-type {
+  padding-top: 10rem;
+}
+
+.icon-description:last-of-type {
+  padding-bottom: 10rem;
+}
+
+.gary-big-icon {
+  padding-right: 6rem;
 }
 
 button {
@@ -58,7 +111,7 @@ button {
 
   border: 1px solid var(--white-color);
 
-  font-family: 'Sen Black', sans-serif;
+  font-family: "Sen Black", sans-serif;
 }
 
 button.rounded-btn {
