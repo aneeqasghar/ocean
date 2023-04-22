@@ -42,7 +42,7 @@ p.credit-card-desc {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('./assets/images/Rectangle.png');
+  background-image: url("./assets/images/Rectangle.png");
   background-size: cover;
 }
 
@@ -58,7 +58,7 @@ button {
 
   border: 1px solid var(--white-color);
 
-  font-family: 'Sen Black', sans-serif;
+  font-family: "Sen Black", sans-serif;
 }
 
 button.rounded-btn {
