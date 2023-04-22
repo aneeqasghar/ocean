@@ -1,0 +1,128 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lato";
+  height: 100vh;
+}
+.bgGray {
+  /* background-color: #8e8e8e; */
+  /* opacity: 0.2; */
+
+  background-color: rgba(232, 232, 232, 0.85);
+  backdrop-filter: blur(37.5px);
+}
+
+.mt {
+  margin-top: 14vh;
+}
+
+.authContainer {
+  margin-top: 40px;
+  width: 500px;
+  height: 680px;
+  background: white;
+  padding-left: 45px;
+  padding-right: 45px;
+  /* opacity: 1; */
+}
+
+.createAccount {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.loginInputs {
+  /* width: 720px; */
+}
+
+.textInput {
+  /* height: 70px; */
+  /* width: 396px; */
+  min-width: 100%;
+  height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.topInputMargin {
+  margin-top: 40px;
+}
+
+.topInputMarginTwo {
+  margin-top: 40px;
+}
+
+.submitButton {
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  min-width: 100%;
+  height: 64px;
+}
+
+.forgotPw {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+.googleSignIn {
+  margin-top: 30px;
+}
+
+.socialSignIn {
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px;
+  min-width: 100%;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  height: 64px;
+
+  /* identical to box height, or 21px */
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.socialImg {
+  margin-left: 30px;
+  margin-right: 136px;
+}
+
+.privacyPolicy {
+  margin-top: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  display: block;
+  color: rgba(0, 0, 0, 0.5);
+  width: 305px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.green {
+  color: #10b981;
+}
