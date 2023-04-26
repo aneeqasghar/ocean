@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ocean/static/css/main.14413d72.css",
-    "main.js": "/ocean/static/js/main.d260d247.js",
+    "main.js": "/ocean/static/js/main.f47eb124.js",
     "static/js/787.0f4e50f9.chunk.js": "/ocean/static/js/787.0f4e50f9.chunk.js",
     "static/media/Rectangle.png": "/ocean/static/media/Rectangle.63a9d95b53e556f3775d.png",
     "static/media/Poppins-Regular.ttf": "/ocean/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
@@ -16,18 +16,24 @@
     "static/media/google-logo.svg": "/ocean/static/media/google-logo.db7fb315bda22ac95f6c9c28fe175e7b.svg",
     "static/media/garyBigIcon.svg": "/ocean/static/media/garyBigIcon.e3d84840f2fdfd729855c3414a9d0bdc.svg",
     "static/media/paperUpload.svg": "/ocean/static/media/paperUpload.0d01a122e0025edb34af23aeef6f1ef3.svg",
+    "static/media/chat-history-icon.svg": "/ocean/static/media/chat-history-icon.3fd8e216d5645ce117c5c7b63f3bcebb.svg",
+    "static/media/settings-icon.svg": "/ocean/static/media/settings-icon.60ef3a0cd8785cba770df2dee5c71541.svg",
     "static/media/twitter-logo.svg": "/ocean/static/media/twitter-logo.181411f4cfb99bbe16253ec9fc29d68d.svg",
     "static/media/message.svg": "/ocean/static/media/message.7d3fa272e3efdaba68d021e7ac2d9242.svg",
+    "static/media/documents-icon.svg": "/ocean/static/media/documents-icon.d886ee07316010accdbfebf5474dcf10.svg",
+    "static/media/dashboard-icon.svg": "/ocean/static/media/dashboard-icon.9751bbee67aa741162d659d5f4b13f4a.svg",
     "index.html": "/ocean/index.html",
+    "static/media/logout-icon.svg": "/ocean/static/media/logout-icon.9bc9fa9623108c147a3a674ed74d76d9.svg",
     "static/media/search.svg": "/ocean/static/media/search.b57cad0f53b8f0edb09f4d4993ab46c6.svg",
     "static/media/fb-logo.svg": "/ocean/static/media/fb-logo.3b8397d0ba7514ca51e11f45f09f34ad.svg",
     "static/media/arrow.svg": "/ocean/static/media/arrow.00e9818fe764c235e5f5fa428653f703.svg",
+    "static/media/chat-icon.svg": "/ocean/static/media/chat-icon.2c34595b768fb072b1cbfca3bcf9604f.svg",
     "main.14413d72.css.map": "/ocean/static/css/main.14413d72.css.map",
-    "main.d260d247.js.map": "/ocean/static/js/main.d260d247.js.map",
+    "main.f47eb124.js.map": "/ocean/static/js/main.f47eb124.js.map",
     "787.0f4e50f9.chunk.js.map": "/ocean/static/js/787.0f4e50f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14413d72.css",
-    "static/js/main.d260d247.js"
+    "static/js/main.f47eb124.js"
   ]
 }
