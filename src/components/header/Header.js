@@ -19,20 +19,40 @@ import Typography from "@mui/material/Typography";
 
 const drawerWidth = 240;
 
-const Header = ({children}) => {
-//   const { window } = props;
+const Header = ({ children }) => {
+  //   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
 
+  let routeLinks = [
+    { label: "Scan", path: "/scan" },
+    { label: "Vendors", path: "/vendors" },
+    { label: "Reservations", path: "/reservations" },
+    { label: "Events", path: "/events" },
+    { label: "Contests", path: "/contests" },
+    { label: "Rosters", path: "/rosters" },
+    { label: "Rewards", path: "/rewards" },
+    { label: "Campaigns", path: "/campaigns" },
+    { label: "Analytics", path: "/analytics" },
+    { label: "Users", path: "/users" },
+    { label: "Settings", path: "/settings" },
+  ];
   const drawer = (
     <div>
       <Toolbar />
       <Divider />
       <List>
-        {["Dashboard", "Documents", "Chat", "Chat History", "Settings", "Logout"].map((text, index) => (
+        {[
+          "Dashboard",
+          "Documents",
+          "Chat",
+          "Chat History",
+          "Settings",
+          "Logout",
+        ].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemIcon>
@@ -93,7 +113,7 @@ const Header = ({children}) => {
                   fontSize: 14,
                   borderRadius: 3,
                   backgroundColor: "#10B981",
-                  border: '1px solid rgba(0, 0, 0, 0.1)'
+                  border: "1px solid rgba(0, 0, 0, 0.1)",
                 }}
               >
                 Add new document
