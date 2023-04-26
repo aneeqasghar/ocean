@@ -10,9 +10,11 @@ export const CustomTextInput = ({ label, ...props }) => {
   return (
     <>
       <FormGroup>
-        <Label htmlFor={props.id || props.name} className={styles.textInput}>
-          {label} {props.require && <span className="text-danger">*</span>}
-        </Label>
+        {label && (
+          <Label htmlFor={props.id || props.name} className={styles.textInput}>
+            {label} {props.require && <span className="text-danger">*</span>}
+          </Label>
+        )}
         <Input
           className={styles.textInput}
           {...field}
