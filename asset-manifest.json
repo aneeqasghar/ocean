@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ocean/static/css/main.14413d72.css",
-    "main.js": "/ocean/static/js/main.dc7decff.js",
-    "static/js/787.3f81cc74.chunk.js": "/ocean/static/js/787.3f81cc74.chunk.js",
+    "main.js": "/ocean/static/js/main.6d9972fa.js",
+    "static/js/787.0f4e50f9.chunk.js": "/ocean/static/js/787.0f4e50f9.chunk.js",
     "static/media/Rectangle.png": "/ocean/static/media/Rectangle.63a9d95b53e556f3775d.png",
     "static/media/Poppins-Regular.ttf": "/ocean/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "static/media/Poppins-Black.ttf": "/ocean/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
@@ -23,11 +23,11 @@
     "static/media/fb-logo.svg": "/ocean/static/media/fb-logo.3b8397d0ba7514ca51e11f45f09f34ad.svg",
     "static/media/arrow.svg": "/ocean/static/media/arrow.00e9818fe764c235e5f5fa428653f703.svg",
     "main.14413d72.css.map": "/ocean/static/css/main.14413d72.css.map",
-    "main.dc7decff.js.map": "/ocean/static/js/main.dc7decff.js.map",
-    "787.3f81cc74.chunk.js.map": "/ocean/static/js/787.3f81cc74.chunk.js.map"
+    "main.6d9972fa.js.map": "/ocean/static/js/main.6d9972fa.js.map",
+    "787.0f4e50f9.chunk.js.map": "/ocean/static/js/787.0f4e50f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14413d72.css",
-    "static/js/main.dc7decff.js"
+    "static/js/main.6d9972fa.js"
   ]
 }
